@@ -5,7 +5,7 @@ from django.http import HttpResponse
 # Create your views here.
 
 def indexpage(request):
-    return HttpResponse("Welcome to My Index Page")
+    return render(request,'index.html')
 
 
 def contactpage(request):
