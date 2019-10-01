@@ -1,12 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Mount Zion College</h1>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block myContent %}
+
+    
+
+<h1>Mount Zion College</h1>
+<table class="table">
+    <tr>
+        <td>Student Name</td>
+        <td> <input type="text" class="form-control"> </td>
+    </tr>
+    <tr>
+        <td>Roll number</td>
+        <td> <input type="text" class="form-control"></td>
+    </tr>
+    <tr>
+        <td>Admission Number</td>
+        <td><input type="text" class="form-control"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><Button class="btn btn-danger">SUBMIT</Button></td>
+    </tr>
+</table>
+
+
+
+{% endblock %}
+   

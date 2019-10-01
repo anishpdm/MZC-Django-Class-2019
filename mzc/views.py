@@ -9,4 +9,4 @@ def indexpage(request):
 
 
 def contactpage(request):
-    return HttpResponse("Contact Page")
+    return render(request,'contact.html')
